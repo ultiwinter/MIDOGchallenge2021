@@ -1,4 +1,4 @@
-# MIDOGchallenge2021
+# Mitosis Domain Generalization Challenge 2021
 Mitosis Domain Generalization (MIDOG) Challenge 2021 done by Ahmed Sheta
 
 The objective of the MItosis Detection in Oncology (MIDOG) challenge is to develop and evaluate an object detection model capable of accurately identifying mitotic figures, which are cells in the process of division, across images obtained from diverse histopathological scanners. For this purpose, a pre-trained RetinaNet model, utilizing a ResNet-50 backbone, has been employed as the foundational architecture for object detection. This model undergoes a fine-tuning process to adapt to the specific nuances of mitotic figure detection. To enhance the model's learning efficiency, particularly in recognizing positive instances of mitotic figures, a deterministic sampling technique has been implemented. This approach is designed to systematically improve the model's performance by ensuring a balanced and representative selection of training samples. A comprehensive explanation of the methodologies, including the codebase and its intricacies, is documented in the "MIDOG_challenge_report.pdf".
